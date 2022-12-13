@@ -3,6 +3,8 @@
 * {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 .row {
@@ -11,8 +13,46 @@
     margin: 0 auto;
 }
 
-nav {
+img {
+    height: 50px;
+}
+
+/* NAVIGATION BAR */
+
+#navigation {
+    background-color: white;
+}
+
+.navigation__container {
     display: flex;
+    justify-content: space-between;
+}
+
+.navigation__title--img {
+    margin: 8px;
+    cursor: pointer;
+}
+
+.navigation__title {
+    font-size: 36px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 12px 0;
+    
+}
+
+.navigation__title:hover {
+    color: rgb(110, 60, 235);
+    transition: all 300ms ease;
+}
+
+
+
+AQUI ME QUEDE
+
+.nav {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -26,6 +66,3 @@ nav {
     color: rgb(110, 60, 235);
 }
 
-img {
-    height: 50px;
-}
